@@ -1,5 +1,10 @@
 \doxysection{src.\+maks.\+shop.\+Product Class Reference}
 \hypertarget{classsrc_1_1maks_1_1shop_1_1Product}{}\label{classsrc_1_1maks_1_1shop_1_1Product}\index{src.maks.shop.Product@{src.maks.shop.Product}}
+
+
+Represents a product with a name, description, and price.  
+
+
 Inheritance diagram for src.\+maks.\+shop.\+Product\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -9,29 +14,98 @@ Inheritance diagram for src.\+maks.\+shop.\+Product\+:\begin{figure}[H]
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a141367412c8af630e5ce358d7bb780b1}\label{classsrc_1_1maks_1_1shop_1_1Product_a141367412c8af630e5ce358d7bb780b1} 
-{\bfseries Product} (String name, String description, double price)
-\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product_a141367412c8af630e5ce358d7bb780b1}{Product}} (String name, String description, double price)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1Product}{Product} object with the specified name, description, and price. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product_a05117eed6a8aeb1bd97d260c23021f82}{to\+String}} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a4ac1ea99b12099b4b8e0e6c1067361b4}\label{classsrc_1_1maks_1_1shop_1_1Product_a4ac1ea99b12099b4b8e0e6c1067361b4} 
-String {\bfseries get\+Name} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_ab36c7a432f83cc4ec150ec23350856a5}\label{classsrc_1_1maks_1_1shop_1_1Product_ab36c7a432f83cc4ec150ec23350856a5} 
-String {\bfseries get\+Description} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a2775823bc4b30421988d3c3bdf73df96}\label{classsrc_1_1maks_1_1shop_1_1Product_a2775823bc4b30421988d3c3bdf73df96} 
-double {\bfseries get\+Price} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Returns a string representation of the product, including its name, description, and price. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product_a4ac1ea99b12099b4b8e0e6c1067361b4}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the product. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product_ab36c7a432f83cc4ec150ec23350856a5}{get\+Description}} ()
+\begin{DoxyCompactList}\small\item\em Gets the description of the product. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product_a2775823bc4b30421988d3c3bdf73df96}{get\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Gets the price of the product. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a product with a name, description, and price. 
+
+The \doxylink{classsrc_1_1maks_1_1shop_1_1Product}{Product} class serves as a base class for different types of products in the system. It holds the basic attributes common to all products, such as name, description, and price. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a141367412c8af630e5ce358d7bb780b1}\index{src.maks.shop.Product@{src.maks.shop.Product}!Product@{Product}}
+\index{Product@{Product}!src.maks.shop.Product@{src.maks.shop.Product}}
+\doxysubsubsection{\texorpdfstring{Product()}{Product()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Product_a141367412c8af630e5ce358d7bb780b1} 
+src.\+maks.\+shop.\+Product.\+Product (\begin{DoxyParamCaption}\item[{String}]{name}{, }\item[{String}]{description}{, }\item[{double}]{price}{}\end{DoxyParamCaption})}
+
+
+
+Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1Product}{Product} object with the specified name, description, and price. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the product. \\
+\hline
+{\em description} & A brief description of the product. \\
+\hline
+{\em price} & The price of the product. \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Member Function Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_ab36c7a432f83cc4ec150ec23350856a5}\index{src.maks.shop.Product@{src.maks.shop.Product}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!src.maks.shop.Product@{src.maks.shop.Product}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Product_ab36c7a432f83cc4ec150ec23350856a5} 
+String src.\+maks.\+shop.\+Product.\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the description of the product. 
+
+\begin{DoxyReturn}{Returns}
+The description of the product. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a4ac1ea99b12099b4b8e0e6c1067361b4}\index{src.maks.shop.Product@{src.maks.shop.Product}!getName@{getName}}
+\index{getName@{getName}!src.maks.shop.Product@{src.maks.shop.Product}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Product_a4ac1ea99b12099b4b8e0e6c1067361b4} 
+String src.\+maks.\+shop.\+Product.\+get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the name of the product. 
+
+\begin{DoxyReturn}{Returns}
+The name of the product. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a2775823bc4b30421988d3c3bdf73df96}\index{src.maks.shop.Product@{src.maks.shop.Product}!getPrice@{getPrice}}
+\index{getPrice@{getPrice}!src.maks.shop.Product@{src.maks.shop.Product}}
+\doxysubsubsection{\texorpdfstring{getPrice()}{getPrice()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Product_a2775823bc4b30421988d3c3bdf73df96} 
+double src.\+maks.\+shop.\+Product.\+get\+Price (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the price of the product. 
+
+\begin{DoxyReturn}{Returns}
+The price of the product. 
+\end{DoxyReturn}
 \Hypertarget{classsrc_1_1maks_1_1shop_1_1Product_a05117eed6a8aeb1bd97d260c23021f82}\index{src.maks.shop.Product@{src.maks.shop.Product}!toString@{toString}}
 \index{toString@{toString}!src.maks.shop.Product@{src.maks.shop.Product}}
 \doxysubsubsection{\texorpdfstring{toString()}{toString()}}
 {\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Product_a05117eed6a8aeb1bd97d260c23021f82} 
 String src.\+maks.\+shop.\+Product.\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
 
+
+
+Returns a string representation of the product, including its name, description, and price. 
+
+\begin{DoxyReturn}{Returns}
+A string containing the product\textquotesingle{}s name, description, and price. 
+\end{DoxyReturn}
 
 
 Reimplemented in \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Book_a9fb81e2c54dae71754c73488f8968116}{src.\+maks.\+shop.\+Book}}.

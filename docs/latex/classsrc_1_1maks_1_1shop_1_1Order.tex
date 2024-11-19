@@ -1,5 +1,10 @@
 \doxysection{src.\+maks.\+shop.\+Order Class Reference}
 \hypertarget{classsrc_1_1maks_1_1shop_1_1Order}{}\label{classsrc_1_1maks_1_1shop_1_1Order}\index{src.maks.shop.Order@{src.maks.shop.Order}}
+
+
+Represents an order placed by a client for a specific product.  
+
+
 Inheritance diagram for src.\+maks.\+shop.\+Order\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -9,24 +14,118 @@ Inheritance diagram for src.\+maks.\+shop.\+Order\+:\begin{figure}[H]
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a}\label{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a} 
-{\bfseries Order} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1}\label{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1} 
-String {\bfseries to\+String} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0}\label{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0} 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} {\bfseries get\+Client} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe}\label{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe} 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} {\bfseries get\+Product} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0}\label{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0} 
-int {\bfseries get\+Quantity} ()
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff}\label{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff} 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{Order}} {\bfseries set\+Quantity} (int quantity)
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a}{Order}} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} object. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a string representation of the order. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0}{get\+Client}} ()
+\begin{DoxyCompactList}\small\item\em Gets the client who placed the order. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe}{get\+Product}} ()
+\begin{DoxyCompactList}\small\item\em Gets the product being ordered. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0}{get\+Quantity}} ()
+\begin{DoxyCompactList}\small\item\em Gets the quantity of the product being ordered. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{Order}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff}{set\+Quantity}} (int quantity)
+\begin{DoxyCompactList}\small\item\em Updates the quantity of the product in the order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents an order placed by a client for a specific product. 
+
+The \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} class associates a client with a product, along with the quantity of the product ordered. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a}\index{src.maks.shop.Order@{src.maks.shop.Order}!Order@{Order}}
+\index{Order@{Order}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{Order()}{Order()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a} 
+src.\+maks.\+shop.\+Order.\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}}}]{client}{, }\item[{\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}}}]{product}{, }\item[{int}]{quantity}{}\end{DoxyParamCaption})}
+
+
+
+Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & The client who placed the order. \\
+\hline
+{\em product} & The product being ordered. \\
+\hline
+{\em quantity} & The quantity of the product ordered. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0}\index{src.maks.shop.Order@{src.maks.shop.Order}!getClient@{getClient}}
+\index{getClient@{getClient}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{getClient()}{getClient()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0} 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} src.\+maks.\+shop.\+Order.\+get\+Client (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the client who placed the order. 
+
+\begin{DoxyReturn}{Returns}
+The client associated with the order. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe}\index{src.maks.shop.Order@{src.maks.shop.Order}!getProduct@{getProduct}}
+\index{getProduct@{getProduct}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{getProduct()}{getProduct()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe} 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} src.\+maks.\+shop.\+Order.\+get\+Product (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the product being ordered. 
+
+\begin{DoxyReturn}{Returns}
+The product associated with the order. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0}\index{src.maks.shop.Order@{src.maks.shop.Order}!getQuantity@{getQuantity}}
+\index{getQuantity@{getQuantity}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{getQuantity()}{getQuantity()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0} 
+int src.\+maks.\+shop.\+Order.\+get\+Quantity (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the quantity of the product being ordered. 
+
+\begin{DoxyReturn}{Returns}
+The quantity of the product ordered. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff}\index{src.maks.shop.Order@{src.maks.shop.Order}!setQuantity@{setQuantity}}
+\index{setQuantity@{setQuantity}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{setQuantity()}{setQuantity()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff} 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{Order}} src.\+maks.\+shop.\+Order.\+set\+Quantity (\begin{DoxyParamCaption}\item[{int}]{quantity}{}\end{DoxyParamCaption})}
+
+
+
+Updates the quantity of the product in the order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quantity} & The new quantity of the product. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The updated \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} object. 
+\end{DoxyReturn}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1}\index{src.maks.shop.Order@{src.maks.shop.Order}!toString@{toString}}
+\index{toString@{toString}!src.maks.shop.Order@{src.maks.shop.Order}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1} 
+String src.\+maks.\+shop.\+Order.\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Returns a string representation of the order. 
+
+\begin{DoxyReturn}{Returns}
+A string containing the order details, including the quantity, product, and client. 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}

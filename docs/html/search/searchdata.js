@@ -2,7 +2,7 @@ var indexSectionsWithContent =
 {
   0: "bcgmopst",
   1: "bcmops",
-  2: "bgt"
+  2: "bcgmopst"
 };
 
 var indexSectionNames =

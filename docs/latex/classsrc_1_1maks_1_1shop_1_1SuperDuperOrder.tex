@@ -1,5 +1,10 @@
 \doxysection{src.\+maks.\+shop.\+Super\+Duper\+Order Class Reference}
 \hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{}\label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}\index{src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}}
+
+
+Represents a special type of order with enhanced functionalities.  
+
+
 Inheritance diagram for src.\+maks.\+shop.\+Super\+Duper\+Order\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -10,37 +15,95 @@ Inheritance diagram for src.\+maks.\+shop.\+Super\+Duper\+Order\+:\begin{figure}
 \begin{DoxyCompactItemize}
 \item 
 class {\bfseries Order\+By\+Price\+Comparator}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em A comparator for comparing \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} objects based on the price of their associated products. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_af5230e6adc824f65c778c2b43d2937a4}\label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_af5230e6adc824f65c778c2b43d2937a4} 
-{\bfseries Super\+Duper\+Order} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
-\item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a173c5f7ed2cecf06b607c5bfab2beb50}\label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a173c5f7ed2cecf06b607c5bfab2beb50} 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} {\bfseries clone} ()
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_af5230e6adc824f65c778c2b43d2937a4}{Super\+Duper\+Order}} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} with the specified client, product, and quantity. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a173c5f7ed2cecf06b607c5bfab2beb50}{clone}} ()
+\begin{DoxyCompactList}\small\item\em Creates a clone of this \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{src.\+maks.\+shop.\+Order}}}
 \begin{DoxyCompactItemize}
 \item 
-{\bfseries Order} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
-\item 
-String {\bfseries to\+String} ()
-\item 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} {\bfseries get\+Client} ()
-\item 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} {\bfseries get\+Product} ()
-\item 
-int {\bfseries get\+Quantity} ()
-\item 
-\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{Order}} {\bfseries set\+Quantity} (int quantity)
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a5543b190c0fe8d5ea0e3f8097adfb07a}{Order}} (\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} client, \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} product, int quantity)
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} object. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a89f059fe4a3c4a564417af721f643bf1}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a string representation of the order. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_ac136ea98f42733766726309bff5a19c0}{get\+Client}} ()
+\begin{DoxyCompactList}\small\item\em Gets the client who placed the order. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a7fb37b15feb92e91591156bd1721ddbe}{get\+Product}} ()
+\begin{DoxyCompactList}\small\item\em Gets the product being ordered. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_a9879b151573b474572d21c4b6aa5f5f0}{get\+Quantity}} ()
+\begin{DoxyCompactList}\small\item\em Gets the quantity of the product being ordered. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order}{Order}} \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Order_ae5f583182650fc39d339f010ff63e7ff}{set\+Quantity}} (int quantity)
+\begin{DoxyCompactList}\small\item\em Updates the quantity of the product in the order. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a34d24a37b07dae8ee27ab4e322f95abb}\label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a34d24a37b07dae8ee27ab4e322f95abb} 
-static Comparator$<$? super \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} $>$ {\bfseries get\+Order\+By\+Price\+Comparator} ()
-\end{DoxyCompactItemize}
+static Comparator$<$? super \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} $>$ \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a34d24a37b07dae8ee27ab4e322f95abb}{get\+Order\+By\+Price\+Comparator}} ()
+\begin{DoxyCompactList}\small\item\em Returns the comparator for ordering \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} objects by the price of their products. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a special type of order with enhanced functionalities. 
+
+The \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} class extends the basic \doxylink{classsrc_1_1maks_1_1shop_1_1Order}{Order} class, adding the ability to clone orders and providing a comparator to order the orders by price. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_af5230e6adc824f65c778c2b43d2937a4}\index{src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}!SuperDuperOrder@{SuperDuperOrder}}
+\index{SuperDuperOrder@{SuperDuperOrder}!src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}}
+\doxysubsubsection{\texorpdfstring{SuperDuperOrder()}{SuperDuperOrder()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_af5230e6adc824f65c778c2b43d2937a4} 
+src.\+maks.\+shop.\+Super\+Duper\+Order.\+Super\+Duper\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Client}{Client}}}]{client}{, }\item[{\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1Product}{Product}}}]{product}{, }\item[{int}]{quantity}{}\end{DoxyParamCaption})}
+
+
+
+Constructs a new \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} with the specified client, product, and quantity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & The client associated with the order. \\
+\hline
+{\em product} & The product being ordered. \\
+\hline
+{\em quantity} & The quantity of the product being ordered. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a173c5f7ed2cecf06b607c5bfab2beb50}\index{src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}!clone@{clone}}
+\index{clone@{clone}!src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a173c5f7ed2cecf06b607c5bfab2beb50} 
+\mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} src.\+maks.\+shop.\+Super\+Duper\+Order.\+clone (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Creates a clone of this \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}. 
+
+\begin{DoxyReturn}{Returns}
+A new \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} object that is a copy of the current instance. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Assertion\+Error} & If cloning is not supported. \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a34d24a37b07dae8ee27ab4e322f95abb}\index{src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}!getOrderByPriceComparator@{getOrderByPriceComparator}}
+\index{getOrderByPriceComparator@{getOrderByPriceComparator}!src.maks.shop.SuperDuperOrder@{src.maks.shop.SuperDuperOrder}}
+\doxysubsubsection{\texorpdfstring{getOrderByPriceComparator()}{getOrderByPriceComparator()}}
+{\footnotesize\ttfamily \label{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder_a34d24a37b07dae8ee27ab4e322f95abb} 
+static Comparator$<$? super \mbox{\hyperlink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order}} $>$ src.\+maks.\+shop.\+Super\+Duper\+Order.\+get\+Order\+By\+Price\+Comparator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns the comparator for ordering \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} objects by the price of their products. 
+
+\begin{DoxyReturn}{Returns}
+The comparator used to compare \doxylink{classsrc_1_1maks_1_1shop_1_1SuperDuperOrder}{Super\+Duper\+Order} objects by product price. 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
